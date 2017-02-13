@@ -1,5 +1,3 @@
-@@ -1,2 +1,48 @@
-
 <?php
 echo "I am a bot";
 \ No newline at end of file
