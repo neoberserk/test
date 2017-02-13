@@ -1,5 +1,8 @@
+@@ -1,2 +1,48 @@
 
 <?php
+echo "I am a bot";
+\ No newline at end of file
 $access_token = 'hGBwB4/wbhe19IJlnatFrJ9ERhUDRvFBXOyWsA7KRkCTSEFViXBmDRGaQokKR03XDCQnH9fYHNDdAq4fGfWMeQ3zpUSDGEWWYthfIBTna1ZLDnEIXtnFZ5dOv6fW39zRfAOopxgITDlPjms7RA2vxQdB04t89/1O/w1cDnyilFU=';
 
 // Get POST body content
@@ -45,4 +48,4 @@ if (!is_null($events['events'])) {
 		}
 	}
 }
-echo "OK";
+echo "test";
