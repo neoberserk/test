@@ -5,10 +5,10 @@ require("phpMQTT.php");
 // $password = "z2gdaN6eeDbV";
 $address = "m10.cloudmqtt.com";
 $port = "30471";
-echo $address /n, $port /n ,  ;
+echo $address , $port  ,  ;
 //MQTT client id to use for the device. "" will generate a client id automatically
   $mqtt = new phpMQTT($host, $port, "ClientID".rand()); 
-	echo $mqtt /n;
+	echo $mqtt ;
   if ($mqtt->connect(true,NULL,$username,$password)) {
     $mqtt->publish("Light1","OK", 0);
     $mqtt->close();
