@@ -1,6 +1,6 @@
 <?php
 //mqtt connect
-require("phpMQTT.php");
+require("./phpMQTT.php");
 $username = "foivjeaj";
 $password = "z2gdaN6eeDbV";
 $host = "m10.cloudmqtt.com";
@@ -12,8 +12,9 @@ $port = "30471";
   if ($mqtt->connect(true,NULL,$username,$password)) {
     $mqtt->publish("Light1","OK", 0);
     $mqtt->close();
+	echo "Connect to Mqtt Server ";
   }else{
-    echo "Fail or time out<br />";
+    	echo "Fail or time out<br />";
   }
 
 $access_token = 'hGBwB4/wbhe19IJlnatFrJ9ERhUDRvFBXOyWsA7KRkCTSEFViXBmDRGaQokKR03XDCQnH9fYHNDdAq4fGfWMeQ3zpUSDGEWWYthfIBTna1ZLDnEIXtnFZ5dOv6fW39zRfAOopxgITDlPjms7RA2vxQdB04t89/1O/w1cDnyilFU=';
