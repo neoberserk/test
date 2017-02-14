@@ -45,8 +45,8 @@ class phpMQTT {
 	public $port;				/* broker port */
 	public $clientid;			/* client id sent to brocker */
 	public $will;				/* stores the will of the client */
-	private $username;			/* stores username */
-	private $password;			/* stores password */
+	private $username = foivjeaj ;			/* stores username */
+	private $password = z2gdaN6eeDbV;			/* stores password */
 
 	function __construct($address, $port, $clientid){
 		$this->broker($address, $port, $clientid);
