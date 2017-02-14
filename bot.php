@@ -1,9 +1,9 @@
 <?php
 //mqtt connect
-require("./phpMQTT.php");
-$username = "foivjeaj";
-$password = "z2gdaN6eeDbV";
-$host = "m10.cloudmqtt.com";
+require("/phpMQTT.php");
+// $username = "foivjeaj";
+// $password = "z2gdaN6eeDbV";
+$address = "m10.cloudmqtt.com";
 $port = "30471";
 
 //MQTT client id to use for the device. "" will generate a client id automatically
@@ -95,4 +95,4 @@ if (!is_null($events['events'])) {
 	}
 }
 
-echo "test";
+echo "OK";
